@@ -3,6 +3,8 @@ on:
   pull_request:
     types: [closed]
     branches: [ DEV ]
+  push:
+    branches: [ QA ]
   workflow_dispatch:
 jobs:
   Build:
