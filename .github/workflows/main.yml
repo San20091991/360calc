@@ -2,7 +2,7 @@ name: CICD -testing 5
 on:
   pull_request:
     types: [closed]
-    branches: [ DEV  ]
+    branches: [ DEV ]
   workflow_dispatch:
 jobs:
   Build:
